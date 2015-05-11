@@ -1,3 +1,5 @@
+**NOTE:** This fork surfaces subsequent [onMetaData](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html?content=00001405.html) events from Flash to the external interface. Abacast uses the onMetaData event to surface synced banner ads from their Flash video stream. So after the initial onMetaData event we want to continue surfacing them to the external interface so that synced banner ads can be displayed when appropriate.
+
 The light-weight Flash video player that makes Flash work like HTML5 video. This allows player skins, plugins, and other features to work with both HTML5 and Flash
 
 This project doesn't need to be used if you simply want to use the Flash video player.  Head back to the main Video.js project if that's all you need, as the compiled SWF is checked in there.
